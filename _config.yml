@@ -1,0 +1,28 @@
+title: The Loom
+tagline: a research blog on the prehistory of digital books
+
+author:
+  name: Whitney Trettien
+  url: https://twitter.com/whitneytrettien
+  email: trettien@english.upenn.edu
+
+defaults:
+  - scope:
+      path: ""
+      type: "authors"
+    values:
+      layout: "author"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
